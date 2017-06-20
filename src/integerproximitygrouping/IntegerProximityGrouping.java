@@ -18,10 +18,18 @@ public class IntegerProximityGrouping {
 
     public static void main(String[] args) {
 
+        
+        /**
+         * Array of integers to group
+         */
         int[] numbers = {160, 15, 14, 13, 34, 23, 24, 25, 26, 28, 45, 34, 23, 29, 12, 23, 45, 67, 23, 12, 34, 45, 23,
             67, 23, 670};
+        /**
+         * Number of groups in which the array shall be divided
+         */
         int groups = 4;
 
+        //final solution
         int[][] solution = group(numbers, groups);
 
     }
