@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
  */
 public class GroupNGTest {
 
-    Group t_group;
+    private Group t_group;
 
     public GroupNGTest() {
     }
